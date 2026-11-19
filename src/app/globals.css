@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 340 20% 98%;
+    /* Soft Blush White */
+    --foreground: 340 15% 15%;
+    /* Deep Warm Taupe / Charcoal */
+    --card: 0 0% 100%;
+    /* Pure White */
+    --card-foreground: 340 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 15% 15%;
+    --primary: 340 45% 65%;
+    /* Elegant Dusty Rose */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 340 15% 94%;
+    /* Soft Rose Grey */
+    --secondary-foreground: 340 15% 15%;
+    --muted: 340 15% 94%;
+    --muted-foreground: 340 10% 55%;
+    --accent: 340 20% 92%;
+    --accent-foreground: 340 15% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 340 15% 90%;
+    --input: 340 15% 90%;
+    --ring: 340 45% 65%;
+  }
+
+  .dark {
+    --background: 340 20% 8%;
+    /* Dark Plum Charcoal */
+    --foreground: 340 20% 96%;
+    /* Soft Pale Blush */
+    --card: 340 15% 12%;
+    --card-foreground: 340 20% 96%;
+    --popover: 340 15% 10%;
+    --popover-foreground: 340 20% 96%;
+    --primary: 340 50% 70%;
+    /* Luminous Soft Rose */
+    --primary-foreground: 340 20% 10%;
+    --secondary: 340 15% 16%;
+    --secondary-foreground: 340 20% 96%;
+    --muted: 340 15% 16%;
+    --muted-foreground: 340 10% 65%;
+    --accent: 340 15% 16%;
+    --accent-foreground: 340 20% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 340 20% 96%;
+    --border: 340 15% 20%;
+    --input: 340 15% 20%;
+    --ring: 340 50% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden font-sans;
+  }
+
+  section {
+    @apply w-full py-12 md:py-24 lg:py-32;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-headline;
+  }
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+/* Card hover glow effect */
+.card-glow-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-glow-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+      hsl(var(--foreground) / 0.05),
+      transparent 40%);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.dark .card-glow-effect::before {
+  background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+      hsl(var(--foreground) / 0.1),
+      transparent 40%);
+}
+
+.card-glow-effect:hover::before {
+  opacity: 1;
+}
+
+.animated-title span {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInWord 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInWord {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.8);
+}

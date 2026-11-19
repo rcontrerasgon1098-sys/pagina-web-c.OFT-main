@@ -1,0 +1,217 @@
+{
+  "images": [
+    {
+      "id": "hero-main",
+      "description": "Modern architecture building",
+      "imageUrl": "/images/hero-main.jpeg",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "hero-carousel-2",
+      "description": "Interior of a modern building with a lot of glass",
+      "imageUrl": "/images/hero-carousel-2.jpg",
+      "imageHint": "modern interior"
+    },
+    {
+      "id": "team-1",
+      "description": "Portrait of an architect",
+      "imageUrl": "/images/team-1.jpg",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-2",
+      "description": "Portrait of a designer",
+      "imageUrl": "/images/team-2.jpg",
+      "imageHint": "designer portrait"
+    },
+    {
+      "id": "team-3",
+      "description": "Portrait of an urban planner",
+      "imageUrl": "/images/team-3.jpg",
+      "imageHint": "planner portrait"
+    },
+    {
+      "id": "proj1-img1",
+      "imageUrl": "https://raw.githubusercontent.com/Tino109/fotos-pagina-web12/main/3.png",
+      "imageHint": "modern house render"
+    },
+    {
+      "id": "proj1-img2",
+      "imageUrl": "/images/proj1-img2.png",
+      "imageHint": "kitchen render"
+    },
+    {
+      "id": "proj2-img1",
+      "imageUrl": "https://raw.githubusercontent.com/Tino109/fotos-pagina-web12/main/2.png",
+      "imageHint": "urban plan"
+    },
+    {
+      "id": "proj3-img1",
+      "imageUrl": "/images/proj3-img1.png",
+      "imageHint": "architecture portfolio cover"
+    },
+    {
+      "id": "proj4-img1",
+      "imageUrl": "https://raw.githubusercontent.com/Tino109/fotos-pagina-web12/main/4.png",
+      "imageHint": "architecture diagram"
+    },
+    {
+      "id": "proj5-img1",
+      "imageUrl": "https://raw.githubusercontent.com/Tino109/fotos-pagina-web12/main/6.png",
+      "imageHint": "floor plan"
+    },
+    {
+      "id": "proj6-img1",
+      "imageUrl": "https://raw.githubusercontent.com/Tino109/fotos-pagina-web12/main/7.png",
+      "imageHint": "solar analysis"
+    },
+    {
+      "id": "proj7-img1",
+      "imageUrl": "/images/proj7-img1.png",
+      "imageHint": "architectural sketch"
+    },
+    {
+      "id": "proj8-img1",
+      "imageUrl": "/images/proj8-img1.png",
+      "imageHint": "interior render"
+    },
+    {
+      "id": "corma-main",
+      "imageUrl": "/images/corma-main.jpg",
+      "imageHint": "modular proposal wood"
+    },
+    {
+      "id": "zambrano-main",
+      "imageUrl": "/images/zambrano-main.jpeg",
+      "imageHint": "historic building reactivation"
+    },
+    {
+      "id": "corma-elevacion",
+      "imageUrl": "/images/corma-elevacion.jpg",
+      "imageHint": "elevation perspective"
+    },
+    {
+      "id": "corma-central",
+      "imageUrl": "/images/corma-central.jpg",
+      "imageHint": "central view close"
+    },
+    {
+      "id": "corma-lateral",
+      "imageUrl": "/images/corma-lateral.jpg",
+      "imageHint": "side view close"
+    },
+    {
+      "id": "corma-lejana",
+      "imageUrl": "/images/corma-lejana.jpg",
+      "imageHint": "distant view"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proyecto-residencial",
+      "title": "Proyecto Residencial",
+      "category": "Renders",
+      "description": "Render de una casa moderna, mostrando su fachada y entorno. Incluye vistas interiores de la cocina y otros espacios.",
+      "mainImageId": "proj1-img1",
+      "galleryImageIds": [
+        "proj1-img1",
+        "proj1-img2"
+      ]
+    },
+    {
+      "id": "diseno-urbano",
+      "title": "Diseño Urbano",
+      "category": "Planimetría",
+      "description": "Plano maestro de un complejo urbano, detallando la distribución de edificios y espacios públicos.",
+      "mainImageId": "proj2-img1",
+      "galleryImageIds": [
+        "proj2-img1"
+      ]
+    },
+    {
+      "id": "portafolio-colectivo",
+      "title": "Portafolio Colectivo OFT",
+      "category": "Diseño",
+      "description": "Portada del portafolio del Colectivo OFT, mostrando su identidad visual.",
+      "mainImageId": "proj3-img1",
+      "galleryImageIds": [
+        "proj3-img1"
+      ]
+    },
+    {
+      "id": "esquema-conceptual",
+      "title": "Esquema Conceptual",
+      "category": "Diagramas",
+      "description": "Diagrama de circulaciones que ilustra los flujos de movimiento dentro de un proyecto arquitectónico.",
+      "mainImageId": "proj4-img1",
+      "galleryImageIds": [
+        "proj4-img1"
+      ]
+    },
+    {
+      "id": "planta-arquitectonica",
+      "title": "Planta Arquitectónica",
+      "category": "Planimetría",
+      "description": "Plano detallado de la planta de una casa, mostrando la distribución de los espacios.",
+      "mainImageId": "proj5-img1",
+      "galleryImageIds": [
+        "proj5-img1"
+      ]
+    },
+    {
+      "id": "analisis-solar",
+      "title": "Análisis Solar",
+      "category": "Diagramas",
+      "description": "Diagrama que muestra el análisis de la incidencia solar sobre una edificación a lo largo del día.",
+      "mainImageId": "proj6-img1",
+      "galleryImageIds": [
+        "proj6-img1"
+      ]
+    },
+    {
+      "id": "boceto-arquitectonico",
+      "title": "Boceto Arquitectónico",
+      "category": "Diseño",
+      "description": "Boceto a mano alzada de una idea arquitectónica, capturando la esencia del diseño.",
+      "mainImageId": "proj7-img1",
+      "galleryImageIds": [
+        "proj7-img1"
+      ]
+    },
+    {
+      "id": "vista-interior",
+      "title": "Vista Interior",
+      "category": "Renders",
+      "description": "Render de un espacio interior que muestra la atmósfera y el mobiliario del diseño.",
+      "mainImageId": "proj8-img1",
+      "galleryImageIds": [
+        "proj8-img1"
+      ]
+    },
+    {
+      "id": "hoja-del-descarte",
+      "title": "Hoja del Descarte",
+      "category": "Mobiliario Urbano",
+      "description": "Hoja del Descarte es una propuesta modular en madera diseñada para abordar la gran cantidad de residuos orgánicos producidos en las ferias libres de Santiago. El proyecto transforma estos desechos en papel artesanal mediante un recorrido lineal que guía a los usuarios por cada etapa del proceso: recolección, triturado, colado, prensado y secado. Los módulos, prefabricados en terciado estructural y ensamblados sin herrajes, se montan y desmontan en pocas horas, permitiendo su uso itinerante en distintas ferias. Cada unidad integra su propio mobiliario funcional —mesas de trabajo, espacios de colado y soportes para herramientas— para asegurar que el sistema solo pueda operar como taller de papel. Más que una estructura temporal, Hoja del Descarte busca activar el espacio público, educar a la comunidad y demostrar el potencial de la madera como soporte para procesos circulares y colaborativos.",
+      "mainImageId": "corma-main",
+      "galleryImageIds": [
+        "corma-elevacion",
+        "corma-central",
+        "corma-lateral",
+        "corma-lejana"
+      ],
+      "videoUrl": "/videos/hoja-del-descarte-video.mp4"
+    },
+    {
+      "id": "zambrano",
+      "title": "Proyecto Zambrano",
+      "category": "Recuperación Patrimonial",
+      "description": "El proyecto busca reactivar la estructura histórica del Ex Instituto Zambrano y su vínculo con la Parroquia Sagrado Corazón, reinsertándolos en el tejido urbano de Estación Central como un espacio público vital.\\n\\nRecuperación Patrimonial: Se liberan las fachadas originales retirando construcciones sin valor, reestableciendo la conexión visual y física del conjunto con su entorno inmediato.\\n\\nNueva Arquitectura: Se incorporan dos volúmenes laterales de estética neutra (hormigón y bloque de vidrio), unidos por una pasarela que atraviesa el edificio histórico para articular la circulación.\\n\\nPrograma y Uso: Orientado al estudio y la producción colectiva, el diseño incluye un nivel subterráneo configurado como una plaza pública interior, consolidando el proyecto como un espacio abierto a la comunidad.",
+      "mainImageId": "zambrano-main",
+      "galleryImageIds": [
+        "zambrano-main"
+      ],
+      "videoUrl": "/videos/zambrano-video.mp4"
+    }
+  ]
+}
